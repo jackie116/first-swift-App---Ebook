@@ -13,6 +13,8 @@
 		E307A94C273775D700AC17A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E307A94A273775D700AC17A2 /* Main.storyboard */; };
 		E307A94E273775DA00AC17A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E307A94D273775DA00AC17A2 /* Assets.xcassets */; };
 		E307A951273775DA00AC17A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E307A94F273775DA00AC17A2 /* LaunchScreen.storyboard */; };
+		E3C7391927400FA3006D8996 /* colorful_tab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3C7391827400FA3006D8996 /* colorful_tab.storyboard */; };
+		E3C7391B274011E6006D8996 /* black_and_white.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3C7391A274011E6006D8996 /* black_and_white.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E307A94D273775DA00AC17A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E307A950273775DA00AC17A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E307A952273775DA00AC17A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3C7391827400FA3006D8996 /* colorful_tab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = colorful_tab.storyboard; sourceTree = "<group>"; };
+		E3C7391A274011E6006D8996 /* black_and_white.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = black_and_white.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				E307A946273775D700AC17A2 /* SceneDelegate.swift */,
 				E307A948273775D700AC17A2 /* ViewController.swift */,
 				E307A94A273775D700AC17A2 /* Main.storyboard */,
+				E3C7391827400FA3006D8996 /* colorful_tab.storyboard */,
+				E3C7391A274011E6006D8996 /* black_and_white.storyboard */,
 				E307A94D273775DA00AC17A2 /* Assets.xcassets */,
 				E307A94F273775DA00AC17A2 /* LaunchScreen.storyboard */,
 				E307A952273775DA00AC17A2 /* Info.plist */,
@@ -125,8 +131,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3C7391B274011E6006D8996 /* black_and_white.storyboard in Resources */,
 				E307A951273775DA00AC17A2 /* LaunchScreen.storyboard in Resources */,
 				E307A94E273775DA00AC17A2 /* Assets.xcassets in Resources */,
+				E3C7391927400FA3006D8996 /* colorful_tab.storyboard in Resources */,
 				E307A94C273775D700AC17A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,11 +299,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Demo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "醜物店";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,13 +326,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7CUTZ483T;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Demo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "醜物店";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

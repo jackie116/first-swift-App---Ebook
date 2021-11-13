@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bG2-Ea-zbW">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Nqc-fX-A8q">
+            <objects>
+                <viewController id="Uro-sL-S6Y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y96-Mh-KKC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="聖誕" translatesAutoresizingMaskIntoConstraints="NO" id="buc-fi-mW2">
+                                <rect key="frame" x="20" y="158" width="351" height="288"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vpH-b4-Gds">
+                                <rect key="frame" x="87" y="500" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">今天4平尢夜
+祝大家都有收到喜番ㄉ禮物
+身體健康 平尢喜樂🤶</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0Yc-OE-RtE"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ClK-nJ-EiI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TMy-w4-O3T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1002" y="903"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zgD-D3-7h2">
+            <objects>
+                <viewController id="h6d-vY-5qe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LFc-kk-GVP">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5MM-oS-IfC">
+                                <rect key="frame" x="0.0" y="206" width="390" height="390"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="vWU-XA-Dgo">
+                                        <rect key="frame" x="0.0" y="0.0" width="2000" height="390"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="團員" translatesAutoresizingMaskIntoConstraints="NO" id="ivW-xH-3yH">
+                                                <rect key="frame" x="0.0" y="6" width="390" height="390"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="新年" translatesAutoresizingMaskIntoConstraints="NO" id="scX-ra-bWx">
+                                                <rect key="frame" x="398" y="0.0" width="390" height="390"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="牟吉" translatesAutoresizingMaskIntoConstraints="NO" id="QI2-Uz-KXP">
+                                                <rect key="frame" x="805" y="0.0" width="390" height="390"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="聖誕" translatesAutoresizingMaskIntoConstraints="NO" id="fs4-Xk-rah">
+                                                <rect key="frame" x="1215" y="0.0" width="390" height="390"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="超級寒流" translatesAutoresizingMaskIntoConstraints="NO" id="2kK-zg-L1G">
+                                                <rect key="frame" x="1610" y="0.0" width="390" height="390"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wtZ-Ta-l2c">
+                                                <rect key="frame" x="0.0" y="6" width="390" height="390"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="1"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <connections>
+                                                    <segue destination="xUL-2s-Crt" kind="show" id="ZH5-FI-mYk"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eLa-rU-pX9">
+                                                <rect key="frame" x="398" y="0.0" width="390" height="390"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <connections>
+                                                    <segue destination="9F2-Yd-5ie" kind="show" id="Upn-zL-Vc1"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hdx-1G-yuP">
+                                                <rect key="frame" x="805" y="0.0" width="390" height="390"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <connections>
+                                                    <segue destination="nfT-Rp-F8r" kind="show" id="bpB-p9-1Aj"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p0x-AW-UXq">
+                                                <rect key="frame" x="1215" y="0.0" width="390" height="390"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <connections>
+                                                    <segue destination="Uro-sL-S6Y" kind="show" id="7vI-bX-Elk"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aub-X3-txC">
+                                                <rect key="frame" x="1610" y="0.0" width="390" height="390"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <connections>
+                                                    <segue destination="JJn-mI-3Dn" kind="show" id="1Ly-Lf-iQk"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <viewLayoutGuide key="safeArea" id="hj5-SP-cSL"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Vks-m3-zVl"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="eu1-Io-4vh"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="2000" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="EKC-SB-Ba9"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="PHe-7w-y18"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F2y-rn-XiB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="66.153846153846146" y="153.55450236966823"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DR2-hX-K2y">
+            <objects>
+                <viewController id="nfT-Rp-F8r" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UOx-kF-caw">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="牟吉" translatesAutoresizingMaskIntoConstraints="NO" id="8GU-Fz-f1z">
+                                <rect key="frame" x="4" y="196" width="382" height="288"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wqe-gE-cxX">
+                                <rect key="frame" x="76" y="520" width="239" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">［賭桌噗如意 情場更可撥😭］
+
+過年期間484u跟家人朋友小賭怡情ㄋ
+摳尼吉娃娃牛年輸ㄉ一塌糊塗
+變成口袋空空ㄉ哞吉娃娃ㄌ
+狗然噗是本命年😢
+更可撥ㄉ
+今年情人節還4單身狗
+真4可黏哪
+只能祈求明天ㄉ初四迎財神
+能夠迎得財運旺旺ㄌ
+差點忘記1414祝大家情人節快樂ㄌ</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kkh-9T-hCl"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="D1i-a2-ytP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xQ6-CP-OzG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1681.5384615384614" y="439.33649289099526"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LbR-ZY-yj6">
+            <objects>
+                <viewController id="9F2-Yd-5ie" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="k42-zL-Mys">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="新年" translatesAutoresizingMaskIntoConstraints="NO" id="llO-bl-MxA">
+                                <rect key="frame" x="6" y="159" width="403" height="267"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Qsz-ae-hbu">
+                                <rect key="frame" x="87" y="510" width="240" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">［2021 Happy New Year］
+
+9讓偶悶用醜物店ㄉ顏值擔當摳尼吉娃娃
+祝大家新ㄉ一年 萬事大吉娃娃
+2020乾蝦大家ㄉ支持與鼓勵
+2021也請各位捧油繼續支持、指教ㄌ</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ADJ-lY-9zr"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dbU-pZ-z4s"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1OI-f8-cdo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1715" y="-213"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PPl-g0-GSp">
+            <objects>
+                <viewController id="JJn-mI-3Dn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CNp-6B-NzK">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="超級寒流" translatesAutoresizingMaskIntoConstraints="NO" id="AOA-tm-i7b">
+                                <rect key="frame" x="13" y="153" width="389" height="271"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BfO-pM-tbt">
+                                <rect key="frame" x="87" y="496" width="222" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">［寒流來襲 迷4千萬鼻要出門］
+
+冷屎ㄌ
+尤其4 peepee完後要洗手💧
+真4羨慕吉娃娃悶尿尿噗用洗手🐶
+大家一定要注意保暖
+噗要感冒ㄌㄛ
+窩在家🏠4罪棒ㄉ選擇ㄛ
+
+#摳尼吉娃娃
+#こんにちは 
+#こんにちわわ🐶 
+#CHIWAWA
+#我醜我驕傲
+#醜物店 
+#baigeegee</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="GCF-CX-sKX"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="evS-Wc-lIZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GdG-I6-XMs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="192" y="916"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UmG-dt-0ZC">
+            <objects>
+                <viewController id="xUL-2s-Crt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gdW-h6-7zO">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fdy-0g-ob7">
+                                <rect key="frame" x="75" y="510" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">［團團圓圓 越吃越圓］
+
+醜友悶新年快樂
+祝福大家新年快樂
+闔家團聚 吃飽睡好
+🐂牛年敲牛逼</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="團員" translatesAutoresizingMaskIntoConstraints="NO" id="1cI-fx-Mhb">
+                                <rect key="frame" x="45" y="166" width="324" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uIf-8X-96z"/>
+                        <color key="backgroundColor" systemColor="tertiarySystemBackgroundColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HqJ-30-p2w"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wms-26-Auf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="877" y="-465"/>
+        </scene>
+        <!--彩圖-->
+        <scene sceneID="RcK-sh-v6m">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bG2-Ea-zbW" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="彩圖" image="paintbrush.fill" catalog="system" id="Hzp-DL-9Nm"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1ra-qf-KVI">
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="h6d-vY-5qe" kind="relationship" relationship="rootViewController" id="ncy-Sy-UPO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tb3-nb-UEe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-823" y="154"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="paintbrush.fill" catalog="system" width="122" height="128"/>
+        <image name="團員" width="1440" height="1440"/>
+        <image name="新年" width="1000" height="1000"/>
+        <image name="牟吉" width="1440" height="1440"/>
+        <image name="聖誕" width="1440" height="1440"/>
+        <image name="超級寒流" width="1440" height="1440"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
